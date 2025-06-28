@@ -1,0 +1,9 @@
+# Don't care about the main files being in the repo
+
+main.c
+main.cpp
+Main.java
+main.py
+
+# Allow main.* files in solutions/
+!solutions/**/main.*

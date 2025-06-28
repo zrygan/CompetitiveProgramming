@@ -1,0 +1,37 @@
+{
+  "C Boilerplate": {
+    "prefix": "c",
+    "body": [
+      "#include <stdio.h>",
+      "",
+      "int main() {",
+	  "    ",
+      "    return 0;",
+      "}"
+    ],
+    "description": "C boilerplate"
+  },
+  "C++ Boilerplate": {
+    "prefix": "cpp",
+    "body": [
+      "#include <iostream>",
+      "",
+      "int main() {",
+	  "    ",
+      "    return 0;",
+      "}"
+    ],
+    "description": "C++ boilerplate"
+  },
+  "Java Boilerplate": {
+    "prefix": "java",
+    "body": [
+      "public class Main {",
+      "    public static void main(String[] args) {",
+	  "        ",
+      "    }",
+      "}"
+    ],
+    "description": "Java boilerplate"
+  }
+}

@@ -1,32 +1,35 @@
 {
+  "workbench.colorTheme": "One Dark Pro Night Flat",
   "workbench.sideBar.location": "right",
-  "editor.minimap.autohide": true,
+  "explorer.confirmDelete": false,
+  //
+  // If a file is hidden and you wanna touch it, comment it out
+  // here
+  "files.exclude": {
+    ".gitignore": true, // gitignore
+    "*.ps1": true, // Powershell scripts
+    "README.md":    true, // README
+    "solutions/": true, // The solutions folder
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+  //
+  // EDITOR SETTINGS
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.minimap.enabled": false,
   "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.horizontal": "hidden",
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.detectIndentation": false,
-
-  // If a file is hidden and you wanna touch it, comment it out
-  // here
-  "files.exclude": {
-    ".gitignore":   true, // gitignore
-    "*.ps1":        true, // Powershell scripts
-    "README.md":    true, // README
-    "solutions/":   true, // The solutions folder
-    "**/.git":      true,
-    "**/.svn":      true,
-    "**/.hg":       true,
-    "**/.DS_Store": true,
-    "**/Thumbs.db": true
-  },
-
-  // EDITOR SETTINGS
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 16,
-  
+  //
   // TERMINAL SETTINGS
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
   "terminal.integrated.fontFamily": "JetBrains Mono",
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.profiles.windows": {

@@ -28,7 +28,9 @@ if (-not (Test-Path $sourceFile)) {
     exit 1
 }
 
-$fullDestinationPath = Join-Path -Path "." -ChildPath $destinationPath
+# Prepend 'solutions' to the destination path
+$fullDestinationPath = Join-Path -Path "." -ChildPath (Join-Path -Path "solutions" -ChildPath $destinationPath)
+
 if (-not (Test-Path $fullDestinationPath)) {
     New-Item -ItemType Directory -Path $fullDestinationPath -Force | Out-Null
 }

@@ -43,5 +43,16 @@
       "icon": "terminal-powershell"
     }
   },
-  "terminal.integrated.defaultProfile.windows": "Visual Studio"
+  "terminal.integrated.defaultProfile.windows": "Visual Studio",
+  "files.associations": {
+    "utility": "cpp",
+    "vector": "cpp",
+    "iostream": "cpp",
+    "list": "cpp",
+    "xstring": "cpp",
+    "xhash": "cpp",
+    "unordered_map": "cpp",
+    "ios": "c",
+    "xiosbase": "c"
+  }
 }

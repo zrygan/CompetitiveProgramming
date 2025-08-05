@@ -1,6 +1,6 @@
 {
   "workbench.colorTheme": "Default Dark Modern",
-  "workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "left",
   "explorer.confirmDelete": false,
   //
   // If a file is hidden and you wanna touch it, comment it out

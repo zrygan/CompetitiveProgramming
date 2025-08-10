@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
   "workbench.sideBar.location": "left",
   "explorer.confirmDelete": false,
   //
@@ -9,7 +9,7 @@
     ".gitignore": true, // gitignore
     "*.ps1": true, // Powershell scripts
     "README.md":    true, // README
-    "solutions/": true, // The solutions folder
+    // "solutions/": true, // The solutions folder
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,

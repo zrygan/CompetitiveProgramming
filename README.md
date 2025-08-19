@@ -22,7 +22,7 @@ This repository has three main sections:
 
 1. [`algorithms`](https://github.com/zrygan/TuringTome/algorithms)
 contains implementations of algorithms.
-2. [`data structures`](https://github.com/zrygan/TuringTome/data structures)
+2. [`data structures`](https://github.com/zrygan/TuringTome/tree/main/data%20structures)
 contains implementations of data structures.
 3. [`solutions`](https://github.com/zrygan/TuringTome/solutions)
 contains solutions to competitive programming and algorithmic problems.

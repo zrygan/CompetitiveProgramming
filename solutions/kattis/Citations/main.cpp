@@ -24,7 +24,7 @@ void compute_size_and_D(int u)
     D_subtree[u] = 1 + books[u].readtime;
     return;
   }
-  
+
   int s = 1;
   int d = 1 + books[u].readtime;
 
@@ -34,7 +34,7 @@ void compute_size_and_D(int u)
     s += size_subtree[c];
     d += D_subtree[c];
   }
-  
+
   size_subtree[u] = s;
   D_subtree[u] = d;
 }

@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
+  "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
   "workbench.sideBar.location": "left",
   "explorer.confirmDelete": false,
   //
@@ -7,8 +7,8 @@
   // here
   "files.exclude": {
     ".gitignore": true, // gitignore
-    "*.ps1": true, // Powershell scripts
-    "README.md":    true, // README
+    // "*.ps1": true, // Powershell scripts
+    // "README.md":    true, // README
     // "solutions/": true, // The solutions folder
     "**/.git": true,
     "**/.svn": true,

@@ -2,6 +2,7 @@
 
 Main.java
 main.*
+go.mod
 
 # Allow main.* files in solutions/
 !solutions/**/main.*
